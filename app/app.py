@@ -11,6 +11,7 @@ def create_app():
         """Возвращает результат простой проверки жизнеспособности."""
         return jsonify(status="ok")
 
+
     @application.get("/")
     def index():
         """Возвращает сведения о службе."""
